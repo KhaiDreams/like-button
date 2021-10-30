@@ -1,0 +1,38 @@
+html {
+    background-color: #385596;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/df/Facebook_logo_thumbs_up_like_transparent_SVG.svg);
+      background-color: #e7e9f1;
+      color: #385596;
+      background-size: 50px;
+      background-position: 20px 25%;
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 59px;
+      font-size: 20px;
+      border:none;
+      text-align: center;
+      text-indent: 32px;
+  }
+  
+  .btn{
+    box-shadow:0 5px 0 #CFCFCF;
+  }
+  
+  .btn:hover{
+    box-shadow:0 5px 0 #B5B5B5;
+  }
+  
+  
+  .btn:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+  }
